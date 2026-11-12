@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050b18"><title>JARVIS AI — Prosenjit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient a1"></div><div class="ambient a2"></div>
+<main class="app">
+  <header class="topbar">
+    <div class="brand"><div class="brandmark">J</div><div><strong>JARVIS <span>AI</span></strong><small>PERSONAL ASSISTANT</small></div></div>
+    <div class="status"><i></i> SYSTEM ONLINE</div>
+  </header>
+  <section class="hero">
+    <div class="eyebrow"><span></span> DEMO MODE · NO API REQUIRED</div>
+    <div class="orb-wrap"><div class="ring ring1"></div><div class="ring ring2"></div><div class="orb"><div class="orb-core">J</div></div></div>
+    <h1>Good evening, <em>Prosenjit.</em></h1>
+    <p class="subtitle">I'm JARVIS, your personal AI assistant. What can I help you with today?</p>
+  </section>
+  <section class="chat-panel">
+    <div class="chat-head"><div><b>JARVIS CHAT</b><small>Friendly demo conversation</small></div><button id="clearBtn" class="clear">Clear chat ↺</button></div>
+    <div id="messages" class="messages" aria-live="polite">
+      <div class="message bot"><div class="avatar">J</div><div class="bubble"><small>JARVIS · NOW</small><p>Systems online. Hello, Prosenjit! I'm ready to assist. Try asking me about my features, the time, or a fun fact.</p></div></div>
+    </div>
+    <div class="suggestions">
+      <button class="suggestion">What can you do?</button><button class="suggestion">Tell me a fun fact</button><button class="suggestion">Give me motivation</button>
+    </div>
+    <form id="chatForm" class="composer"><input id="userInput" autocomplete="off" placeholder="Message JARVIS..." aria-label="Message JARVIS"><button type="submit" aria-label="Send message">➤</button></form>
+    <div class="disclaimer">DEMO ASSISTANT · RESPONSES ARE PRE-WRITTEN, NOT LIVE AI</div>
+  </section>
+  <footer>DESIGNED FOR <b>PROSENJIT</b> <span>•</span> JARVIS AI DEMO</footer>
+</main>
+<script src="script.js"></script>
+</body></html>
